@@ -45,3 +45,8 @@ benchmarks/held_out/traces/
 benchmarks/held_out/traces_archive/
 benchmarks/held_out/data/
 benchmarks/held_out/evidence/
+
+# A local PitStop store created in the checkout
+/pitstop.db
+/pitstop.db-shm
+/pitstop.db-wal
