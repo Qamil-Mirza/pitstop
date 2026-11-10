@@ -2,7 +2,7 @@
 
 Keep your agents on the racing line: drift detection and GEPA-powered prompt correction for agent workflows. Open source, runs on your machine.
 
-[![CI](https://github.com/Qamil-Mirza/gepa-financial-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/Qamil-Mirza/gepa-financial-agent/actions/workflows/ci.yml)
+[![CI](https://github.com/Qamil-Mirza/pitstop/actions/workflows/ci.yml/badge.svg)](https://github.com/Qamil-Mirza/pitstop/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Python >= 3.11](https://img.shields.io/badge/python-%E2%89%A53.11-blue.svg)](pyproject.toml)
 
@@ -50,8 +50,8 @@ Agents drift in two ways. They go **off-task**: chasing a stale directive, loopi
 You need [uv](https://docs.astral.sh/uv/) and Python 3.11 or newer.
 
 ```sh
-git clone https://github.com/Qamil-Mirza/gepa-financial-agent.git
-cd gepa-financial-agent
+git clone https://github.com/Qamil-Mirza/pitstop.git
+cd pitstop
 uv sync
 uv run finresearch demo
 ```
